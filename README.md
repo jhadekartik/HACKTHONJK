@@ -1,74 +1,83 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+🇮🇳 Bharat Voice Sahayak — Hackathon Project (OpenAI × NxtWave)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bharat Voice Sahayak is a voice-first AI assistant designed to bring government schemes, job opportunities, and scholarships directly to Indian homes in regional languages — using GenAI + Voice Technology
 
-## Available Scripts
+> ⚡ "Making every home in India aware of their rights, benefits, and future — with one AI-powered speaker."
 
-In the project directory, you can run:
 
-### `npm start`
+ Problem We Solve
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Millions of Indians, especially in rural and semi-urban areas, miss out on opportunities due to:
+- Lack of awareness about government schemes
+- Language barriers in English-only apps
+- Notification overload on phones
+- Difficulty filling out applications manually
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+ Our Solution: Voice-First AI Notification System
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Bharat Voice Sahayak simulates a smart AI speaker that:
+- Delivers voice alerts in your mother tongue about schemes, jobs, and scholarships
+- Explains each notification using OpenAI GPT in simple conversational language
+- Offers two simple buttons —  Apply or  Reject
+- Automatically fills and submits applications using saved user profiles
+- Works for every family member with personalization
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-  React + Material-UI — Frontend Web App
+-  OpenAI GPT-3.5 — AI Explainer
+-  ElevenLabs API (TTS) — Voice Generation *(to be enabled)*
+-  Context API — Family Profiles and User Management
+-  Vercel — Live Deployment
 
-### `npm run eject`
+ Demo Video
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> Link: [ Watch Demo Walkthrough](https://hackthonjk.vercel.app)  
+> Live App: [https://hackthonjk.vercel.app](https://hackthonjk.vercel.app)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ Features
 
-## Learn More
+-  AI Notifications with summary and speaker animation
+-  Multi-user (Family-based) profile system
+-  Regional Language Support
+-  Apply/Reject with status updates
+-  Opportunity Dashboard
+-  Friendly UI for low-tech users
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+ Impact Vision
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ We aim to place a smart Bharat Voice Sahayak speaker in every home — from Jammu to Kanyakumari, ensuring no opportunity is ever missed again
 
-### Analyzing the Bundle Size
+This project targets:
+- Farmers
+- Daily-wage earners
+- Students
+- Women and elderly
+- Rural job-seekers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+ Future Scope
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Hardware integration using Raspberry Pi
+- Real-time government API feeds
+- Offline support
+- Local language NLP fine-tuning
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ Submission
 
-### Deployment
+-  Developer: [@jhadekartik](https://github.com/jhadekartik)
+-  GitHub Repo: [https://github.com/jhadekartik/HACKTHONJK](https://github.com/jhadekartik/HACKTHONJK)
+-  Live Demo: [https://hackthonjk.vercel.app](https://hackthonjk.vercel.app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# OpenAI-NxtWave-JK-
->>>>>>> d593647918c02d6d9c346c3777d027ad515859ce
+ India doesn't lack schemes  it lacks awareness. Let’s fix that with AI.-jk
+
