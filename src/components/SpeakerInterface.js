@@ -263,6 +263,18 @@ const SpeakerInterface = () => {
                   </Typography>
                 )}
               </Box>
+              
+              {/* Add the summary box here */}
+              <Box sx={{ mt: 3, p: 2, bgcolor: '#f5f5f5', borderRadius: 2 }}>
+                <Typography variant="subtitle1" gutterBottom>
+                  {/* eslint-disable-next-line no-undef */}
+                  {isLoading ? 'Generating summary...' : 'Opportunity Summary:'}
+                </Typography>
+                <Typography variant="body1">
+                  {/* eslint-disable-next-line no-undef */}
+                  {summary || 'Press "Play Notification" to hear about this opportunity'}
+                </Typography>
+              </Box>
             </Grid>
           </Grid>
         </Paper>
@@ -314,13 +326,3 @@ const SpeakerInterface = () => {
 };
 
 export default SpeakerInterface;
-
-// Add this in your JSX to display the summary
-<Box sx={{ mt: 3, p: 2, bgcolor: '#f5f5f5', borderRadius: 2 }}>
-  <Typography variant="subtitle1" gutterBottom>
-    {isLoading ? 'Generating summary...' : 'Opportunity Summary:'}
-  </Typography>
-  <Typography variant="body1">
-    {summary || 'Press "Play Notification" to hear about this opportunity'}
-  </Typography>
-</Box>
