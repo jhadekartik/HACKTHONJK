@@ -2,7 +2,7 @@
 
 Bharat Voice Sahayak is a voice-first AI assistant designed to bring government schemes, job opportunities, and scholarships directly to Indian homes in regional languages — using GenAI + Voice Technology
 
-> ⚡ "Making every home in India aware of their rights, benefits, and future — with one AI-powered speaker."
+> "Making every home in India aware of their rights, benefits, and future — with one AI-powered speaker."
 
 
  Problem We Solve
